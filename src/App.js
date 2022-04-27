@@ -5,7 +5,7 @@ import { Routes, Route, Link } from 'react-router-dom';
 import AboutMe from './Components/AboutMe';
 import Gallery from './Components/Gallery';
 import BookAppoitment from './Components/BookAppoitment';
-import HamburgerIcon from './Components/HamburgerIcon';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/react-bootstrap/dist/react-bootstrap';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
@@ -42,9 +42,6 @@ function App() {
               </Nav.Link>
             </Nav>
 
-            <Nav>
-              <HamburgerIcon />
-            </Nav>
           </Container>
         </Navbar>
       </>
