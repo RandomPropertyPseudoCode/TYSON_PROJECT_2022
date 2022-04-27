@@ -20,28 +20,31 @@ function App() {
       <>
         <Navbar bg="dark" expand="sm" variant="dark">
           <Container>
-            <Navbar.Brand as={Link} to="/">
+            <Navbar.Brand as={Link} to="/" className=''>
               TyDaBarber
             </Navbar.Brand>
 
             <Nav>
-              <Nav.Link as={Link} to="/home">
-                About Me
+              <Nav.Link as={Link} to="/home" className="home-btn-menu">
+                Home
               </Nav.Link>
             </Nav>
 
             <Nav>
-              <Nav.Link as={Link} to="/gallery">
+              <Nav.Link as={Link} to="/gallery" className="photo-gallery-menu">
                 Photo Gallery
               </Nav.Link>
             </Nav>
 
             <Nav>
-              <Nav.Link as={Link} to="/BookAppoitment">
+              <Nav.Link
+                as={Link}
+                to="/BookAppoitment"
+                className="appoitment-btn-menu"
+              >
                 Book An Appoitment
               </Nav.Link>
             </Nav>
-
           </Container>
         </Navbar>
       </>
